@@ -1,0 +1,24 @@
+.support__wrapper {
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  top: 20px;
+  bottom: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.support__h-gap {
+  flex-grow: 1;
+}
+
+.support__v-gap {
+  flex-grow: 1;
+}
+
+.support__filler {
+  height: 20px;
+}
+

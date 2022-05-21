@@ -1,7 +1,6 @@
 {
   "projectType": "application",
   "sourceRoot": "apps/moviedb/src",
-  "prefix": "angular-frontend",
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",

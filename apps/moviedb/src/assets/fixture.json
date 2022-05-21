@@ -1,0 +1,184 @@
+{
+  "items": [
+    {
+      "release_year": 2020,
+      "duration_minutes": 90,
+      "duration_seasons": 0,
+      "listed_in": [
+        "Documentaries"
+      ],
+      "id": "s1",
+      "type": "Movie",
+      "title": "Dick Johnson Is Dead",
+      "director": "Kirsten Johnson",
+      "cast": [],
+      "country": [
+        "US"
+      ],
+      "dateAdded": "2021-09-25",
+      "rating": "PG-13",
+      "description": "As her father nears the end of his life, filmmaker Kirsten Johnson stages his death in inventive and comical ways to help them both face the inevitable."
+    },
+    {
+      "release_year": 2005,
+      "duration_minutes": 91,
+      "duration_seasons": 0,
+      "listed_in": [
+        "Comedies"
+      ],
+      "id": "s932",
+      "type": "Movie",
+      "title": "Fun with Dick & Jane",
+      "director": "Dean Parisot",
+      "cast": [
+        "Téa Leoni",
+        "Alec Baldwin",
+        "Carlos Jacott",
+        "Gloria Garayua",
+        "Richard Burgi",
+        "Richard Jenkins",
+        "Jim Carrey",
+        "Aaron Michael Drozin",
+        "Angie Harmon",
+        "John Michael Higgins"
+      ],
+      "country": [
+        "US"
+      ],
+      "dateAdded": "2021-05-01",
+      "rating": "PG-13",
+      "description": "After losing their high-paying corporate jobs, an upwardly mobile couple turns to robbing banks to maintain their standard of living."
+    },
+    {
+      "release_year": 2018,
+      "duration_minutes": 0,
+      "duration_seasons": 4,
+      "listed_in": [
+        "Kids' TV",
+        "TV Comedies"
+      ],
+      "id": "s1082",
+      "type": "TV Show",
+      "title": "Nicky, Ricky, Dicky & Dawn",
+      "director": "",
+      "cast": [
+        "Aidan Gallagher",
+        "Casey Simpson",
+        "Brian Stepanek",
+        "Allison Munn",
+        "Mace Coronel",
+        "Lizzy Greene"
+      ],
+      "country": [
+        "US"
+      ],
+      "dateAdded": "2021-04-12",
+      "rating": "TV-G",
+      "description": "Just because they're quadruplets, that doesn't mean these 10-year-olds always get along. But for all the bickering, they're loyal to the last."
+    },
+    {
+      "release_year": 2018,
+      "duration_minutes": 59,
+      "duration_seasons": 0,
+      "listed_in": [
+        "Documentaries",
+        "Music & Musicals"
+      ],
+      "id": "s4417",
+      "type": "Movie",
+      "title": "ReMastered: Tricky Dick & The Man in Black",
+      "director": "Sara Dosa",
+      "cast": [],
+      "country": [
+        "US"
+      ],
+      "dateAdded": "2018-11-02",
+      "rating": "TV-14",
+      "description": "This documentary chronicles Johnny Cash's 1970 visit to the White House, where Cash's emerging ideals clashed with Richard Nixon's policies."
+    },
+    {
+      "release_year": 2012,
+      "duration_minutes": 81,
+      "duration_seasons": 0,
+      "listed_in": [
+        "Comedies",
+        "Music & Musicals"
+      ],
+      "id": "s4541",
+      "type": "Movie",
+      "title": "Eric ldle's What About Dick?",
+      "director": "Eric Idle, Aubrey Powell",
+      "cast": [
+        "Eddie Izzard",
+        "Billy Connolly",
+        "Eric Idle",
+        "Tim Curry",
+        "Jim Piddock",
+        "Sophie Winkleman",
+        "Russell Brand",
+        "Jane Leeves",
+        "Tracey Ullman"
+      ],
+      "country": [
+        "US"
+      ],
+      "dateAdded": "2018-10-02",
+      "rating": "TV-MA",
+      "description": "In a madcap stage play from Monty Python icon Eric Idle, comic greats perform the decline and fall of the British Empire ... as told through a piano."
+    },
+    {
+      "release_year": 2017,
+      "duration_minutes": 0,
+      "duration_seasons": 1,
+      "listed_in": [
+        "Reality TV",
+        "British TV Shows",
+        "International TV Shows"
+      ],
+      "id": "s6399",
+      "type": "TV Show",
+      "title": "Cabins in the Wild with Dick Strawbridge",
+      "director": "",
+      "cast": [
+        "Dick Strawbridge",
+        "William Hardie"
+      ],
+      "country": [
+        "GB"
+      ],
+      "dateAdded": "2018-09-15",
+      "rating": "TV-PG",
+      "description": "Engineer Dick Strawbridge and craftsman Will Hardie tour eight unique cabins built for a pop-up hotel in Wales, and construct No. 9 on their own."
+    },
+    {
+      "release_year": 2017,
+      "duration_minutes": 106,
+      "duration_seasons": 0,
+      "listed_in": [
+        "Dramas"
+      ],
+      "id": "s6446",
+      "type": "Movie",
+      "title": "Chappaquiddick",
+      "director": "John Curran",
+      "cast": [
+        "Jason Clarke",
+        "Jim Gaffigan",
+        "Bruce Dern",
+        "Ed Helms",
+        "Taylor Nichols",
+        "Olivia Thirlby",
+        "Kate Mara",
+        "John Fiore",
+        "Clancy Brown"
+      ],
+      "country": [
+        "US",
+        "SE"
+      ],
+      "dateAdded": "2018-10-01",
+      "rating": "PG-13",
+      "description": "Senator Ted Kennedy watches his future unravel in the wake of an infamous car crash as family and allies vie to protect his reputation."
+    }
+  ]
+}
