@@ -15,23 +15,3 @@
 
   row-gap: 5px;
 }
-
-.search-result__item {
-  box-shadow: darkgrey 2px 2px;
-  padding: 3px;
-}
-
-.search-result__item:hover {
-  background-color: darkgrey;
-  color: #333333;
-  cursor: pointer;
-}
-
-.search-result__item--selected {
-  color: #333333;
-  background-color: lightgray;
-}
-
-.search-result__footer {
-
-}

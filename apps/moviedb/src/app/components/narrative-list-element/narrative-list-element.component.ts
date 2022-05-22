@@ -10,7 +10,7 @@ export class NarrativeListElementComponent {
   readonly elementSelected = new EventEmitter<string>();
 
   @Input()
-  title?: string
+  title = ''
 
   @Input()
   selected = false

@@ -1,18 +1,17 @@
 <article class="narrative">
-  <h1 class="narrative__title">Fun with Dick & Jane</h1>
-  <p class="narrative__plot">After losing their high-paying corporate jobs, an upwardly mobile couple turns to robbing
-    banks to maintain their standard of living.</p>
+  <h1 class="narrative__title">{{narrative?.title}}</h1>
+  <p class="narrative__plot">{{narrative?.plot}}</p>
   <section class="narrative__director">
     <h2>Director</h2>
-    <span>John Doe</span>
+    <span>{{narrative?.director}}</span>
   </section>
   <section class="narrative__release-year">
     <h2>Released</h2>
-    <span>1997</span>
+    <span>{{narrative?.released}}</span>
   </section>
-  <narrative-countries class="narrative__countries"></narrative-countries>
-  <narrative-actors class="narrative__cast-list"></narrative-actors>
+  <narrative-countries class="narrative__countries" [countries]="narrative?.countries || []"></narrative-countries>
+  <narrative-actors class="narrative__cast-list" [actors]="narrative?.cast  || []"></narrative-actors>
   <footer class="narrative__labels">
-    <div class="narrative__label">Comedies</div>
+    <div class="narrative__label" *ngFor="let label of narrative?.labels">{{label}}</div>
   </footer>
 </article>

@@ -8,5 +8,5 @@ import {Actor} from "../../model/actor";
 })
 export class NarrativeActorsElementComponent {
   @Input()
-  actor?: Actor
+  actor: Actor | undefined = undefined
 }
