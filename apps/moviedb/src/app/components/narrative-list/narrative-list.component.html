@@ -1,6 +1,10 @@
-<aside class="search-result">
-  <article class="search-result__item search-result__item--selected">Fun with Dick & Jane</article>
-  <article class="search-result__item">The Mitchells vs. The Machines</article>
+<aside class="search-result" *ngIf="titles.length > 0 else empty">
+  <narrative-list-element *ngFor="let title of titles" [selected]="isSelected(title)" [title]="title"
+                          (elementSelected)="selectTitle($event)"></narrative-list-element>
   <div class="support__v-gap"></div>
-  <footer class="search-result__footer">2 matches</footer>
+  <narrative-list-result [matches]="titles.length"></narrative-list-result>
 </aside>
+
+<ng-template #empty>
+  <p><i>No narratives selected, please make a new search</i></p>
+</ng-template>

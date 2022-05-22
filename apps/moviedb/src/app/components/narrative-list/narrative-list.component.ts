@@ -1,5 +1,4 @@
 import {Component, Input} from "@angular/core";
-import {Narrative} from "../../model/narrative";
 
 @Component({
   selector: 'narrative-list',
@@ -11,5 +10,15 @@ export class NarrativeListComponent {
   titles: string[] = []
 
   @Input()
-  selectedTitle?: string
+  selectedTitle?: string = undefined
+
+  isSelected(title: string) {
+    return title === this.selectedTitle;
+  }
+
+  selectTitle(title: string): void {
+    if (this.titles.includes(title)) {
+      this.selectedTitle = title;
+    }
+  }
 }
