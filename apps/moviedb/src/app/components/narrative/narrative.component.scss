@@ -1,3 +1,9 @@
+:host {
+  display: flex;
+  align-items: stretch;
+  justify-items: stretch;
+}
+
 .narrative {
   flex-grow: 2;
 
@@ -32,4 +38,12 @@
 
 .narrative__labels {
   grid-area: labels;
+}
+
+.narrative__cast-list {
+  grid-area: cast;
+}
+
+.narrative__countries {
+  grid-area: countries;
 }
