@@ -1,4 +1,4 @@
-import {Component} from "@angular/core";
+import {Component, Input} from "@angular/core";
 
 @Component({
   selector: 'narrative-list-result',
@@ -6,5 +6,6 @@ import {Component} from "@angular/core";
   styleUrls: ['narrative-list-result.component.scss']
 })
 export class NarrativeListResultComponent {
-
+  @Input()
+  matches = 0
 }

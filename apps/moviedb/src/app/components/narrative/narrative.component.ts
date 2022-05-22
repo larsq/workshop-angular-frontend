@@ -1,4 +1,5 @@
-import {Component} from "@angular/core";
+import {Component, Input} from "@angular/core";
+import {Narrative} from "../../model/narrative";
 
 @Component({
   selector: 'narrative',
@@ -6,4 +7,6 @@ import {Component} from "@angular/core";
   styleUrls: ['narrative.component.scss']
 })
 export class NarrativeComponent {
+  @Input()
+  narrative?: Narrative
 }

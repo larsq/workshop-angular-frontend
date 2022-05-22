@@ -1,4 +1,5 @@
-import {Component} from "@angular/core";
+import {Component, Input} from "@angular/core";
+import {Actor} from "../../model/actor";
 
 @Component({
   selector: 'narrative-actors',
@@ -6,5 +7,6 @@ import {Component} from "@angular/core";
   styleUrls: ['narrative-actors.component.scss']
 })
 export class NarrativeActorsComponent {
-
+  @Input()
+  actors: Actor[] = []
 }

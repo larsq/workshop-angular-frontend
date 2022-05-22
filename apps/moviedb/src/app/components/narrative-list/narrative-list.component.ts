@@ -1,4 +1,5 @@
-import {Component} from "@angular/core";
+import {Component, Input} from "@angular/core";
+import {Narrative} from "../../model/narrative";
 
 @Component({
   selector: 'narrative-list',
@@ -6,5 +7,9 @@ import {Component} from "@angular/core";
   styleUrls: ['../../support/support.scss', 'narrative-list.component.scss']
 })
 export class NarrativeListComponent {
+  @Input()
+  titles: string[] = []
 
+  @Input()
+  selectedTitle?: string
 }
