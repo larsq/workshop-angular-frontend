@@ -1,12 +1,5 @@
 import {Component, Input} from "@angular/core";
 
-const fixture = [
-  'Fun with Dick & Jane',
-  'The Mitchells vs. The Machines'
-]
-
-const fixturedSelectedTitle = 'Fun with Dick & Jane'
-
 @Component({
   selector: 'narrative-list',
   templateUrl: 'narrative-list.component.html',
@@ -14,10 +7,10 @@ const fixturedSelectedTitle = 'Fun with Dick & Jane'
 })
 export class NarrativeListComponent {
   @Input()
-  titles: string[] = fixture
+  titles: string[] = []
 
   @Input()
-  selectedTitle?: string = fixturedSelectedTitle
+  selectedTitle?: string = undefined
 
   isSelected(title: string) {
     return title === this.selectedTitle;

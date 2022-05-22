@@ -1,4 +1,4 @@
-<article class="narrative">
+<article class="narrative" *ngIf="narrative !== undefined else empty">
   <h1 class="narrative__title">{{narrative?.title}}</h1>
   <p class="narrative__plot">{{narrative?.plot}}</p>
   <section class="narrative__director">
@@ -15,3 +15,7 @@
     <div class="narrative__label" *ngFor="let label of narrative?.labels">{{label}}</div>
   </footer>
 </article>
+
+<ng-template #empty>
+
+</ng-template>
