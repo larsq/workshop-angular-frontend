@@ -17,6 +17,7 @@ import {NarrativeListComponent} from "./components/narrative-list/narrative-list
 import {NarrativeListElementComponent} from "./components/narrative-list-element/narrative-list-element.component";
 import {NarrativeListResultComponent} from "./components/narrative-list-result/narrative-list-result.component";
 import {ReactiveFormsModule} from "@angular/forms";
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -32,7 +33,7 @@ import {ReactiveFormsModule} from "@angular/forms";
     NarrativeListElementComponent,
     NarrativeListResultComponent
   ],
-  imports: [BrowserModule, ReactiveFormsModule],
+  imports: [BrowserModule, ReactiveFormsModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
 })
