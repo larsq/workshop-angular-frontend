@@ -3,7 +3,7 @@
   <p class="narrative__plot">{{narrative?.plot}}</p>
   <section class="narrative__director">
     <h2>Director</h2>
-    <span>{{narrative?.director}}</span>
+    <span>{{narrative.director | unknown:'Unknown'}}</span>
   </section>
   <section class="narrative__release-year">
     <h2>Released</h2>

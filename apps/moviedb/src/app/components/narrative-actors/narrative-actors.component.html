@@ -1,4 +1,10 @@
 <section class="narrative__cast-list">
   <h2 class="narrative__cast-title">Cast</h2>
-  <narrative-actor-element [actor]="actor" *ngFor="let actor of actors"></narrative-actor-element>
+  <ng-container *ngIf="actors.length > 0 else unknown">
+    <narrative-actor-element [actor]="actor" *ngFor="let actor of actors"></narrative-actor-element>
+  </ng-container>
 </section>
+
+<ng-template #unknown>
+  <i>Actors unknown</i>
+</ng-template>

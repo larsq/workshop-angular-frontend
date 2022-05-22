@@ -18,6 +18,7 @@ import {NarrativeListElementComponent} from "./components/narrative-list-element
 import {NarrativeListResultComponent} from "./components/narrative-list-result/narrative-list-result.component";
 import {ReactiveFormsModule} from "@angular/forms";
 import {HttpClientModule} from "@angular/common/http";
+import {UnknownPipe} from "./pipes/unknown";
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import {HttpClientModule} from "@angular/common/http";
     NarrativeCountriesElementComponent,
     NarrativeListComponent,
     NarrativeListElementComponent,
-    NarrativeListResultComponent
+    NarrativeListResultComponent,
+    UnknownPipe
   ],
   imports: [BrowserModule, ReactiveFormsModule, HttpClientModule],
   providers: [],
