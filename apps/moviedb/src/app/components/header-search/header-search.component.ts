@@ -1,5 +1,6 @@
 import {Component} from "@angular/core";
 import {FormControl, FormGroup, Validators} from "@angular/forms";
+import {SearchStoreService} from "../../services/search-store.service";
 
 @Component({
   selector: 'header-search',
@@ -11,7 +12,13 @@ export class HeaderSearchComponent {
     search: new FormControl('', [Validators.minLength(3)])
   });
 
+  constructor(private store: SearchStoreService) {
+  }
+
   onSubmit() {
-    console.log('search for ', this.form.get('search')?.value)
+    if (this.form.get('search')?.valid) {
+      const query = this.form.get('search')?.value;
+      this.store.search(query);
+    }
   }
 }
