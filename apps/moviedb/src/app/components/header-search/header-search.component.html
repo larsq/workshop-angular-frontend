@@ -1,7 +1,7 @@
 <section class="navigation__searchbar">
-  <form>
+  <form [formGroup]="form" (ngSubmit)="onSubmit()">
     <div class="navigation_searchbar-component">
-      <input type="search" class="searchbar__field" name="search" placeholder="Search for title">
+      <input type="search" class="searchbar__field" name="search" placeholder="Search for title" formControlName="search">
     </div>
   </form>
 </section>
