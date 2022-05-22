@@ -12,12 +12,14 @@ export class NarrativeListComponent implements OnDestroy {
 
   titles: string[] = []
   selectedTitle?: string = undefined
+  overflow = false;
 
   constructor(private store: SearchStoreService) {
     store.matchingNarratives$.pipe(
       takeUntil(this._destroyed$)
     ).subscribe(narratives => {
-      this.titles = narratives.map(narrative => narrative.title)
+      this.titles = narratives.map(narrative => narrative.title).slice(0, 25)
+      this.overflow = narratives.length > this.titles.length
 
       if (this.titles.length === 0) {
         this.store.unselect();

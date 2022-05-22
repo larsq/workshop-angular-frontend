@@ -1,1 +1,5 @@
-<footer class="search-result__footer">{{matches}} matches</footer>
+<footer class="search-result__footer" *ngIf="overflowSize === false else overflow">{{matches}} matches</footer>
+
+<ng-template #overflow>
+  <footer class="search-result__footer">25+ matches, please refine the query</footer>
+</ng-template>

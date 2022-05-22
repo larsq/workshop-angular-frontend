@@ -2,7 +2,7 @@
   <narrative-list-element *ngFor="let title of titles" [selected]="isSelected(title)" [title]="title"
                           (elementSelected)="selectTitle($event)"></narrative-list-element>
   <div class="support__v-gap"></div>
-  <narrative-list-result [matches]="titles.length"></narrative-list-result>
+  <narrative-list-result [matches]="titles.length" [overflowSize]="overflow"></narrative-list-result>
 </aside>
 
 <ng-template #empty>

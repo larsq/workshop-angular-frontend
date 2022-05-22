@@ -8,4 +8,7 @@ import {Component, Input} from "@angular/core";
 export class NarrativeListResultComponent {
   @Input()
   matches = 0
+
+  @Input()
+  overflowSize = false;
 }
