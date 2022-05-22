@@ -30,34 +30,6 @@
   grid-area: release-year;
 }
 
-.narrative__countries {
-  grid-area: countries;
-}
-
-.narrative__cast-list {
-  grid-area: cast;
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 5px;
-  row-gap: 5px;
-  align-content: flex-start;
-  padding: 10px;
-}
-
-.narrative__cast-title {
-  width: 100%;
-}
-.narrative__cast {
-  height: fit-content;
-  background-color: lightblue;
-}
-
 .narrative__labels {
   grid-area: labels;
-}
-
-.narrative__cast {
-  border: thin solid black;
-  padding: 5px;
-  border-radius: 5px;
 }
