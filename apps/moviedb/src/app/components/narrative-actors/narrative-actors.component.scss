@@ -1,12 +1,15 @@
-.narrative__cast-list {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 5px;
-  row-gap: 5px;
-  align-content: flex-start;
-  padding: 10px;
-}
+.narrative {
+  &__cast-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5px;
+    row-gap: 5px;
+    align-content: flex-start;
+    padding: 10px;
+  }
 
-.narrative__cast-title {
-  width: 100%;
+  &__cast-title {
+    width: 100%;
+  }
+
 }
